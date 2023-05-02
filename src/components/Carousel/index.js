@@ -112,7 +112,7 @@ const Carousel = () => {
     } else {
       clearInterval(timerId)
     }
-  }, [rightArrow, play])
+  }, [currIndex, play])
 
   return (
     <div className="main-container">
